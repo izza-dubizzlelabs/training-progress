@@ -1,5 +1,7 @@
 Day 1 (02/04/24):
 
+Chapter One: Getting Started (1.0 to 8.1)
+
 Rails Philosophy
 Don’t Repeat Yourself (Reusable code defined once)
 Convention Over Configuration (Particular conventions followed as good practices)
