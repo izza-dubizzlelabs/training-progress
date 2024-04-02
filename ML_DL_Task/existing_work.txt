@@ -1,0 +1,31 @@
+Previous Work done on Real Estate Image Classification
+
+A research paper to be studied: https://ieeexplore.ieee.org/abstract/document/7926631
+
+Classification using Transfer Learning:
+-> Deep learning is more suited towards image classification problems because 1) DL is much faster (processes images quickly) 2) Automated feature extraction.
+Dataset: 5859 images + 6 classes (Bathroom, Bedroom, Living Room, Kitchen, Front Yard, BackYard).
+
+Exploratory Data Analysis (EDA)
+-> Plots of image count / labels etc
+
+Data Augmentation:
+Image rotation, shear, zoom, flips
+
+Models used (CNNs)
+1. VGG16
+2. ResNet50V2
+3. InceptionV3
+
+CNN from scratch: 64.9%, 0.8065 loss, 35 wrong samples
+VGG16 without finetune: 90.2%, 0.4092 loss, 10 wrong samples
+VGG16 with finetune (last 6 layers): 93.6%, 0.1941 loss, 6 wrong samples
+ResNet 50V2 without finetune: 92.5%, 0.2407 loss, 7 wrong samples
+ResNet 50V2 with finetune: 95.1%, 0.1987 loss, 5 wrong samples
+InceptionV3 (simple): 91.3%, 0.2693 loss, 9 wrong samples
+InceptionV3 with finetuned layers: 94.2, 0.1895 loss, 6 wrong samples
+
+RoomNet (Custom Built Model) : Backyard-0, Bathroom-1, Bedroom-2, Frontyard-3, Kitchen-4, LivingRoom-5
+
+
+
